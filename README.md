@@ -9,6 +9,6 @@ do not completely take the whole code because i created for my girl only. i didn
 the netninja - https://www.youtube.com/watch?v=98BzS5Oz5E4
 dave grey - https://www.youtube.com/watch?v=CvCiNeLnZ00
 
-# happy learning n coding everyone ^^
+happy learning n coding everyone ^^
 
-# and i love u so much my baby lyy ^^
+# i love u so much my baby lyy ^^
