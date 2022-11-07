@@ -6,8 +6,8 @@ const mongoose = require('mongoose');
 const path = require('path');
 const memorieRoutes = require('./routes/memories');
 const dateRoutes = require('./routes/date')
-const cors = require('cors');
-const corsOptions = require('./config/corsOptions')
+// const cors = require('cors');
+// const corsOptions = require('./config/corsOptions')
 
 
 const app = express();
@@ -16,7 +16,7 @@ const app = express();
 app.use('/', express.static(path.join(__dirname, 'public')))
 app.use(express.json());
 app.use(express.urlencoded());
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 
 //routes
