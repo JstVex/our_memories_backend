@@ -6,13 +6,21 @@ const mongoose = require('mongoose');
 const path = require('path');
 const memorieRoutes = require('./routes/memories');
 const dateRoutes = require('./routes/date')
-// const cors = require('cors');
-// const corsOptions = require('./config/corsOptions')
 
+const cors = require('cors');
+// const corsOptions = require('./config/corsOptions')
 
 const app = express();
 
 //middleware
+app.use(
+    cors({
+        origin: "*",
+        methods: ["GET", "POST", "PATCH", "DELETE", "PUT"],
+        credentials: true
+    })
+)
+
 app.use('/', express.static(path.join(__dirname, 'public')))
 app.use(express.json());
 app.use(express.urlencoded());
